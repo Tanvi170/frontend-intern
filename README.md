@@ -11,7 +11,7 @@ This project is a fully interactive quiz application built as part of the **Fron
 
 ## 📌 Setup Instructions
 
-### 1️⃣ Clone the repository
+1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Tanvi170/frontend-intern.git
 cd your-repo
