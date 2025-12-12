@@ -1,46 +1,99 @@
-# Getting Started with Create React App
+# 📝 Quiz App — Frontend Developer Intern Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a fully interactive quiz application built as part of the **Frontend Developer Intern Assignment**. It includes navigation, animated scoring, progress tracking, and a pixel-perfect UI following the provided Figma design.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
+🔗 *Add your Vercel link here after deployment*
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📌 Setup Instructions
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Tanvi170/frontend-intern.git
+cd your-repo
+2️⃣ Install dependencies
+npm install
+3️⃣ Start development server
+npm run dev
+npm start
+4️⃣ Build for production
+npm run build
 
-### `npm test`
+🛠️ Tech Stack Used
+React.js — Component-based UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+TypeScript — Type-checking + better structure
 
-### `npm run build`
+TailwindCSS — Utility-first styling
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React Hooks
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+useState for quiz state
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+useEffect for animated score
 
-### `npm run eject`
+SVG Icons — Custom arrow icons
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+CSS Gradients & Shadows — To match Figma UI
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+⭐ Key Features Implemented
+✔ 1. Fully functional quiz flow
+Next / Previous navigation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Submit button appears on last question
 
-## Learn More
+Answers stored per question
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+✔ 2. Animated score on result screen
+Smooth 0 → final score animation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Frame-timed using setInterval
+
+✔ 3. Dynamic progress bar
+Highlights the current question
+
+Accurate visual representation
+
+✔ 4. Clean UI matching Figma
+Gradients
+
+Blur effect
+
+Speech bubble + paw GIF
+
+Question box + option cards styled exactly
+
+✔ 5. Restart quiz functionality
+Resets quiz state
+
+Returns user to question 1
+
+📌 Assumptions Made
+Four questions were required based on design
+
+No backend/API is needed
+
+Paw GIF (/paw.gif) exists in the public folder
+
+UI should closely match the provided Figma file
+
+User has Node + npm installed
+
+⏱️ Time Spent on the Assignment
+Task	Estimated Time
+Understanding requirements & Figma	~1 hour
+UI layout + styling	~3–4 hours
+Implementing quiz logic	~1–1.5 hours
+Score animation	~30–40 minutes
+Final polish + responsiveness	~1 hour
+Deployment + documentation	~20–30 minutes
+Total Time Spent	~7–8 hours
+
+📬 Author
+Tanvi Tonge
+Frontend Developer Intern Applicant
